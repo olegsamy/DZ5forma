@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Задание параметров для фона */
+
+form input, textarea {
+	width: 260px;
+	max-width: 800px;
+	margin: auto;
+	padding-left: 10px;
+	height: 20px;
+}
+
+
+.content {
+	background-color: #132035;
+	/* Цвет фона элемента*/
+	color: #fff;
+	border: thin #fff;
+	/* Выбор границ элемента*/
+	padding: 10px;
+	/* Пространство внутри элемента*/
+	margin: auto;
+	/* Пространство за пределами документа. В данном случае располагает по центру*/
+	margin-bottom: 10px;
+	/* Отступ снизу элемента*/
+	margin-top: 10px;
+	/* Отступ сверху элемента*/
+	text-align: justify;
+	/* Расположение текста внутри элемента*/
+	width: 75%;
+	/* Ширина блока*/
+	opacity: 0.7;
+	border-radius: 10px;
+}
+
+
+article header {
+	background-color: #cdf0da;
+	/* Цвет фона элемента*/
+	/*	border:thin #54985B solid; /* Выбор границ элемента*/
+	padding: 10px;
+	/* Пространство внутри элемента*/
+	margin: auto;
+	/* Пространство за пределами документа. В данном случае располагает по центру*/
+	margin-bottom: 10px;
+	/* Отступ снизу элемента*/
+	margin-top: 10px;
+	/* Отступ сверху элемента*/
+	text-align: center;
+	/* Расположение текста внутри элемента*/
+	width: 90%;
+	/* Ширина блока*/
+	min-width: 800px;
+	/* Минимальный размер блока */
+	max-width: 1100px;
+	/* Максимальный размер элемента*/
+}
+
+.navf a {
+	display: inline;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #f1f1f1;
+}
+
+.navf a:hover {
+	background-color: #3A68B8;
+	border-radius: 5px;
+
+}
+
+time {
+	color: #999999;
+	float: right;
+}
+
+.floatfigure {
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-right: 25px;
+	margin-bottom: 2px;
+}
+
+.floatfigure figcaption {
+	max-width: 150px;
+	font-size: small;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+#scriptHTML {
+	background-color: #DEE9E9;
+	border: thin #533D3D solid;
+	padding: 15px;
+	padding-top: 0px;
+}
+
+.image_micro {
+	width: 300px;
+	height: 300px;
+	padding-top: 20px;
+}
+
+.item-favorite {
+	padding-left: 8px;
+
+}
